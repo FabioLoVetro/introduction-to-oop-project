@@ -20,7 +20,7 @@ namespace introduction_to_oop_project.Exercises
             Console.WriteLine("Delicious pizza!");
         }
 
-        public void Sleep()
+        public void Sleep() 
         {
             Console.WriteLine("I'm a sleeping pigeon");
         }
