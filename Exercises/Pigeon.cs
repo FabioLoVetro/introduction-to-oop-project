@@ -14,12 +14,12 @@ namespace introduction_to_oop_project.Exercises
         public Pigeon(string name, string color) : base(name, color)
         {
         }
-
+        //print in output the message "Delicious pizza!"
         public void EatPizza()
         {
             Console.WriteLine("Delicious pizza!");
         }
-
+        //print in output the message "I'm a sleeping pigeon"
         public void Sleep() 
         {
             Console.WriteLine("I'm a sleeping pigeon");
