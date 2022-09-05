@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace introduction_to_oop_project.Exercises
 {
-
+    //@interface
     public interface IDance
     {
         void Spin();

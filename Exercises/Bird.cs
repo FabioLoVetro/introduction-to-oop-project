@@ -28,17 +28,17 @@ namespace introduction_to_oop_project.Exercises
             //default implementation
             Console.WriteLine($"I'm {Name} and I can fly high in the blue sky!");
         }
-
+        //implementation of the method Spin from interface IDance
         public void Spin()
         {
             Console.WriteLine($"{Name} spin!");
         }
-
+        //implementation of the method DoTheCaterpillar from interface IDance
         public void DoTheCaterpillar()
         {
             Console.WriteLine($"{Name} do the wriggly woo!");
         }
-
+        //implementation of the method Jump from interface IDance
         public void Jump()
         {
             Console.WriteLine($"{Name} jump in the air!");
