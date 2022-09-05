@@ -13,6 +13,10 @@ namespace introduction_to_oop_project.Exercises
             Color = color;
         }
 
+        //I marked this method virtual keyword to give a default implementation.
+        //If the method is marked with abstract keyword means
+        //that any classes extending on Bird must implement this
+        //Abstract methods don't have a method body
         public virtual void Speak()
         {
             //default implementation
